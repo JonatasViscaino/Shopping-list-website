@@ -1,0 +1,103 @@
+body {
+  font-family: Henny Penny, cursive;
+  background-color: lightgoldenrodyellow;
+}
+
+.coolTitle {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: #ff4027;
+  text-shadow: 0 1px #ffee8d, -1px 0 #ffd7c0, -1px 2px #ffee8d, -2px 1px #ffd7c0,
+          -2px 3px #ffee8d, -3px 2px #ffd7c0, -3px 4px #ffee8d, -4px 3px #ffd7c0,
+          -4px 5px #ffee8d, -5px 4px #ffd7c0, -5px 6px #ffee8d, -6px 5px #ffd7c0,
+          -6px 7px #ffee8d, -7px 6px #ffd7c0, -7px 8px #ffee8d, -8px 7px #ffd7c0;
+}
+
+p {
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#div_input {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#userinput {
+  width: 300px;
+  height: 28px;
+  margin: 5px 0 5px 0;
+  border-radius: 8px;
+}
+
+#btn_newitem {
+  margin: 5px 0 5px 0;
+  height: 34px;
+  width: 80px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 600;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#btn_newitem:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#btn_newitem:active {
+  transform: scale(0.95);
+}
+
+.delete {
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 4px 6px;
+  font-size: 9px;
+  margin: 2px 0 2px 5px;
+  border: 2px solid #f44336;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.delete:hover {
+  background-color: #f05f55;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: 20px;
+  margin: 5px auto;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.done > span {
+  text-decoration: line-through;
+}
